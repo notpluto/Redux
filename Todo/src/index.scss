@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+body {
+  font-family: 'Rubik', sans-serif;
+  color: #fff;
+  .wrapper {
+    max-width: 600px;
+    margin: 3rem auto;
+  }
+  h3{
+    font-size: 4.6rem;
+    letter-spacing: 8px;
+    font-family: 'Poiret One', cursive;
+    // text-align: center;
+  }
+  background: {
+    color: #000000;
+    size: cover;
+  }
+  .todo-input {
+  	width: 420px;
+  	height: 3rem;
+  	outline: 0;
+  	padding: 0 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  .todo-input:focus {
+    border: 2px solid red;
+  }
+  button {
+  	width: 6rem;
+  	height: 3.4rem;
+    font-size: 1rem;
+  	padding: 10px;
+    outline: 0;
+    background: black;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 8px;
+  }
+  .list {
+    padding: 10px;
+    margin-left: 3px;
+  }
+  .list-item {
+    display: flex;
+    align-items: baseline;
+    padding: 4px;
+    position: relative;
+    font-size: 1.8rem;
+    // background: #fefef3;
+  }
+  div::first-letter {
+    text-transform: capitalize;
+  }
+  .todo{
+    padding-left: 4px;
+  }
+  span{
+    margin-left: 12rem;
+    position: fixed;
+    right: 36rem;
+  }
+  span:hover{
+    color: red;
+  }
+  div>input {
+    font-size: 20px
+  }
+}
+
